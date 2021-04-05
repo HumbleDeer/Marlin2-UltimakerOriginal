@@ -1874,9 +1874,9 @@
   //#define EXTRA_LIN_ADVANCE_K // Enable for second linear advance constants
   
   // This needs to be 1.6....2.4, but it produces too much rattle
-  // if lifted above 1.4
+  // so by default it's set to zero
 
-  #define LIN_ADVANCE_K 1.4     // Unit: mm compression per 1mm/s extruder speed
+  #define LIN_ADVANCE_K 0.0     // Unit: mm compression per 1mm/s extruder speed
   //#define LA_DEBUG            // If enabled, this will generate debug information output over USB.
   #define EXPERIMENTAL_SCURVE // Enable this option to permit S-Curve Acceleration
 #endif
