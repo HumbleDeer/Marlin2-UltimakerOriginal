@@ -1,15 +1,23 @@
-# Marlin 3D Printer Firmware
+# Marlin 3D Printer Firmware for Ultimaker Original
 
 ![GitHub](https://img.shields.io/github/license/marlinfirmware/marlin.svg)
-![GitHub contributors](https://img.shields.io/github/contributors/marlinfirmware/marlin.svg)
-![GitHub Release Date](https://img.shields.io/github/release-date/marlinfirmware/marlin.svg)
-[![Build Status](https://github.com/MarlinFirmware/Marlin/workflows/CI/badge.svg?branch=bugfix-2.0.x)](https://github.com/MarlinFirmware/Marlin/actions)
 
 <img align="right" width=175 src="buildroot/share/pixmaps/logo/marlin-250.png" />
 
 Additional documentation can be found at the [Marlin Home Page](https://marlinfw.org/).
 Please test this firmware and let us know if it misbehaves in any way. Volunteers are standing by!
 
+# Ultimaker Original
+
+This fork contains configuration changes preconfigured for Ultimaker Original. It also enables Linear Advance.
+
+A binary image (suitable for flashing directly from Cura as custom firmware) is provided for convenience in the [umo-binary](https://github.com/gyohng/Marlin2-UltimakerOriginal/tree/2.0.x-UMO/umo-binary) folder; however, it might not be up to date.
+
+The rebase script will run git rebase with the original Marlin2 repository and apply Ultimaker config changes on top of the most recent Marlin.
+
+This project is based on the configuration files by kr15_uk fetched from [this link](https://www.thingiverse.com/thing:4223870) and updated further.
+
+--------------------------------
 ## Marlin 2.0
 
 Marlin 2.0 takes this popular RepRap firmware to the next level by adding support for much faster 32-bit and ARM-based boards while improving support for 8-bit AVR boards. Read about Marlin's decision to use a "Hardware Abstraction Layer" below.
